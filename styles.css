@@ -1,0 +1,110 @@
+/* Reset de estilos para eliminar márgenes y rellenos predeterminados */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el header */
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos para el jumbotron */
+.jumbotron {
+    background-image: url('jumbotron-image.jpg'); /* Reemplaza 'jumbotron-image.jpg' con la imagen de fondo deseada */
+    background-size: cover;
+    text-align: center;
+    padding: 100px;
+    color: #dc2a2a;
+}
+
+.jumbotron h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.email-input input[type="email"] {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.email-input button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* Estilos para el catálogo */
+.catalogo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.producto {
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.producto img {
+    max-width: 100%;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacto p {
+    margin-bottom: 10px;
+}
+
+.redes-sociales a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.redes-sociales a:hover {
+    text-decoration: underline;
+}
